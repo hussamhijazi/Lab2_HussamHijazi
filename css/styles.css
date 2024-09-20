@@ -24,3 +24,10 @@ p.important {
     border-color: purple;                          /* Set the border color to purple */
     font-size: 100%;                                 /* Set the font size to 100% */
     }   
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }

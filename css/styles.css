@@ -1,4 +1,7 @@
+/* Style the main heading */
 h1 {
-    background-color: blue;
-    color: green;
-}
+    font-size: 200%;                                 /* Set the font size to 200% */
+    color: blue;                                    /* Set the text color */
+    text-align: center;                               /* Align the text to the center of the page */
+    font-family: "Times New Roman", Times, serif;    /* Set the font to Times New Roman fonts */
+    }

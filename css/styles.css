@@ -16,7 +16,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;       /* Set the font to Arial */
     }
 
-
+/* Style the important paragraph */
 p.important {   
     border-style: solid;                             /* Set the border style to solid */
     display: inline-block;                           /* Display the paragraph as an inline block element */
@@ -26,8 +26,15 @@ p.important {
     }   
 
 
+/* Center the image */
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    }
+
+
+figcaption {
+    caption-side: bottom;                            /* Position the caption at the bottom of the figure */
+    text-align: center;                               /* Align the text to the center of the page */
     }

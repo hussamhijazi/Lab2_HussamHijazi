@@ -15,3 +15,12 @@ p {
     text-justify: inter-word;                        /* Adjust the spacing between words for better text justification */
     font-family: Arial, Helvetica, sans-serif;       /* Set the font to Arial */
     }
+
+
+p.important {   
+    border-style: solid;                             /* Set the border style to solid */
+    display: inline-block;                           /* Display the paragraph as an inline block element */
+    border-width: 5px;                               /* Set the border width to 5px */
+    border-color: purple;                          /* Set the border color to purple */
+    font-size: 100%;                                 /* Set the font size to 100% */
+    }   

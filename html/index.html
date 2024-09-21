@@ -6,28 +6,39 @@
     <title>Exercise 2</title>
     <link href="../css/styles.css" rel="stylesheet">
 </head>
-<body >
+<body>
     <div class="body">
-    <h1>Welcome to WDDM126 - Week 2</h1>
-    <p>Today we are learning how to use Github repo</p>
+        <h1>Welcome to WDDM126 - Week 2</h1>
+        <p>Today we are learning how to use Github repo</p>
 
-    <p>We learned how to commit staged content and to push changes to the remote repository.</p>
+        <p>We learned how to commit staged content and to push changes to the remote repository.</p>
 
-    <p class="important">Using GitHub is essential for managing projects efficiently, as it provides version control, allowing you to track changes and collaborate with others without conflicts. </p>
+        <p class="important">Using GitHub is essential for managing projects efficiently, as it provides version control, allowing you to track changes and collaborate with others without conflicts. </p>
 
-    <figure>
+        <figure>
+            <!--Add an image element to the site -->
+            <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpt-360u8xWsG_svHf_kdmJ5ovLzWo8y9yxUBD4SLjDHuoq0eR4yHYMDjRzQd5yjnqCF8&usqp=CAU" 
+                height="400"
+                width="600"
+                alt="GitHub">
+            <!--Add caption for the image -->
+            <figcaption>GitHub-Lab2</figcaption>
+        </figure>
 
-    <!--Add an image element to the site -->
-    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpt-360u8xWsG_svHf_kdmJ5ovLzWo8y9yxUBD4SLjDHuoq0eR4yHYMDjRzQd5yjnqCF8&usqp=CAU" 
-        height="400"
-        width="600"
-        alt="GitHub">
+        <!-- Add a text form -->
+        <h2>Submit Your Details</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
-    <!--Add caption for the image -->
-    <figcaption>GitHub-Lab2</figcaption>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message" required></textarea><br><br>
 
-    </figure>
-</div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>

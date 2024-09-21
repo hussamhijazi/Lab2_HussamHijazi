@@ -1,50 +1,52 @@
 /* Style the main heading */
 h1 {
     font-size: 200%;                                  /* Set the font size to 200% */
-    color: red;                                    /* Set the text color */
+    color: #ff6666;                                   /* Set the text color to a lighter red */
     text-align: center;                               /* Align the text to the center of the page */
     font-family: "Times New Roman", Times, serif;     /* Set the font to Times New Roman fonts */
-    }
-
+}
 
 /* Style the paragraph */
 p {
-    font-size: 100%;                                 /* Set the font size to 100% */
-    color: black;                                  /* Set the text color */
-    text-align: justify;                             /* Justify the text */
-    text-justify: inter-word;                        /* Adjust the spacing between words for better text justification */
-    font-family: Arial, Helvetica, sans-serif;       /* Set the font to Arial */
-    }
-    body {
-        background-color: #f0f8ff;                        /* Set a light background color */
-        /* Alternatively, you can use an image as the background */
-        /* background-image: url('path-to-image.jpg'); */ /* Set a background image */
-        background-repeat: no-repeat;                    /* Ensure the background image doesn't repeat */
-        background-size: cover;                          /* Make the background image cover the entire page */
-        background-position: center;                     /* Center the background image */
-        font-family: Arial, Helvetica, sans-serif;       /* Set a global font family */
-        margin: 0;                                       /* Remove default margin */
-        padding: 0;                                      /* Remove default padding */
-    }
+    font-size: 100%;                                  /* Set the font size to 100% */
+    color: #e0e0e0;                                   /* Set the text color to light grey */
+    text-align: justify;                              /* Justify the text */
+    text-justify: inter-word;                         /* Adjust the spacing between words for better text justification */
+    font-family: Arial, Helvetica, sans-serif;        /* Set the font to Arial */
+}
+
+/* Style the body for dark mode */
+body {
+    background-color: #121212;                        /* Set a dark background color */
+    color: #e0e0e0;                                   /* Global text color for better contrast */
+    background-repeat: no-repeat;                     /* Ensure the background image doesn't repeat */
+    background-size: cover;                           /* Make the background image cover the entire page */
+    background-position: center;                      /* Center the background image */
+    font-family: Arial, Helvetica, sans-serif;        /* Set a global font family */
+    margin: 0;                                        /* Remove default margin */
+    padding: 0;                                       /* Remove default padding */
+}
+
 /* Style the important paragraph */
 p.important {   
-    border-style: solid;                             /* Set the border style to solid */
-    display: inline-block;                           /* Display the paragraph as an inline block element */
-    border-width: 5px;                               /* Set the border width to 5px */
-    border-color: purple;                          /* Set the border color to purple */
-    font-size: 100%;                                 /* Set the font size to 100% */
-    }   
-
+    border-style: solid;                              /* Set the border style to solid */
+    display: inline-block;                            /* Display the paragraph as an inline block element */
+    border-width: 5px;                                /* Set the border width to 5px */
+    border-color: #ff66ff;                            /* Set the border color to a lighter purple */
+    color: #e0e0e0;                                   /* Set the text color to light grey */
+    font-size: 100%;                                  /* Set the font size to 100% */
+}
 
 /* Center the image */
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
-
+/* Style the figure caption */
 figcaption {
-    caption-side: bottom;                            /* Position the caption at the bottom of the figure */
+    caption-side: bottom;                             /* Position the caption at the bottom of the figure */
     text-align: center;                               /* Align the text to the center of the page */
-    }
+    color: #e0e0e0;                                   /* Set the caption text color to light grey */
+}

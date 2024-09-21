@@ -1,7 +1,7 @@
 /* Style the main heading */
 h1 {
     font-size: 200%;                                  /* Set the font size to 200% */
-    color: blue;                                    /* Set the text color */
+    color: red;                                    /* Set the text color */
     text-align: center;                               /* Align the text to the center of the page */
     font-family: "Times New Roman", Times, serif;     /* Set the font to Times New Roman fonts */
     }
@@ -15,7 +15,17 @@ p {
     text-justify: inter-word;                        /* Adjust the spacing between words for better text justification */
     font-family: Arial, Helvetica, sans-serif;       /* Set the font to Arial */
     }
-
+    body {
+        background-color: #f0f8ff;                        /* Set a light background color */
+        /* Alternatively, you can use an image as the background */
+        /* background-image: url('path-to-image.jpg'); */ /* Set a background image */
+        background-repeat: no-repeat;                    /* Ensure the background image doesn't repeat */
+        background-size: cover;                          /* Make the background image cover the entire page */
+        background-position: center;                     /* Center the background image */
+        font-family: Arial, Helvetica, sans-serif;       /* Set a global font family */
+        margin: 0;                                       /* Remove default margin */
+        padding: 0;                                      /* Remove default padding */
+    }
 /* Style the important paragraph */
 p.important {   
     border-style: solid;                             /* Set the border style to solid */
